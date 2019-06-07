@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="9" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="98" started-at="2019-06-04T22:29:59Z" finished-at="2019-06-04T22:29:59Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Testing3.mainTest()[pri:0, instance:com.testing.Testing3@91161c7]" name="mainTest" class="com.testing.Testing3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="98" started-at="2019-06-04T22:29:59Z" finished-at="2019-06-04T22:29:59Z">
+      <class name="com.testing.Testing3">
+        <test-method status="PASS" signature="homeTest()[pri:0, instance:com.testing.Testing3@91161c7]" name="homeTest" duration-ms="15" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeTest -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.testing.Testing3@91161c7]" name="endTest" duration-ms="0" started-at="2019-06-04T18:29:59Z" depends-on-methods="com.testing.Testing3.mainTest" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="FAIL" signature="mainTest()[pri:0, instance:com.testing.Testing3@91161c7]" name="mainTest" duration-ms="0" started-at="2019-06-04T18:29:59Z" depends-on-methods="com.testing.Testing3.homeTest" finished-at="2019-06-04T18:29:59Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Verifying Element]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Verifying Element
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
+	at com.testing.Testing3.mainTest(Testing3.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTest -->
+      </class> <!-- com.testing.Testing3 -->
+      <class name="com.testing.Testing1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeMethod" is-config="true" duration-ms="16" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.testing.Testing1@26653222]" name="test1" duration-ms="4" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.testing.Testing1@26653222]" name="test2" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testing.Testing1@26653222]" name="f" duration-ms="16" started-at="2019-06-04T18:29:59Z" data-provider="dp" finished-at="2019-06-04T18:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="f(java.lang.Integer, java.lang.String)[pri:0, instance:com.testing.Testing1@26653222]" name="f" duration-ms="0" started-at="2019-06-04T18:29:59Z" data-provider="dp" finished-at="2019-06-04T18:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.testing.Testing1@26653222]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testing.Testing1@26653222]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.testing.Testing1@26653222]" name="afterTest" is-config="true" duration-ms="16" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testing.Testing1@26653222]" name="afterSuite" is-config="true" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testing.Testing1 -->
+      <class name="com.testing.Testing2">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.testing.Testing2@5e3a8624]" name="test3" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.testing.Testing2@5e3a8624]" name="test4" duration-ms="0" started-at="2019-06-04T18:29:59Z" finished-at="2019-06-04T18:29:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- com.testing.Testing2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
